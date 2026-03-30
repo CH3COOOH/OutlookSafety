@@ -1,4 +1,4 @@
-# OutlookSendingSafety
+# OutlookSafety
 ## What's this
 A Chrome extension that displays a confirmation prompt when sending emails in the **Outlook web app** to prevent accidental sending.
 

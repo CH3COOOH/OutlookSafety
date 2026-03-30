@@ -1,4 +1,4 @@
-const CLASS_BTN_EMOJI = 'fui-Button r1alrhcs oDRY1 ___1svpkjh';
+const CLASS_BTN_EMOJI = 'KmgcY';
 const CLASS_BTN_SEND = 'fui-SplitButton__primaryActionButton';
 const CLASS_BTN_SEND_ICON = 'fui-Icon-font rb9zq';
 const ID_READING_PANEL = 'ReadingPaneContainerId';
