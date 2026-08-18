@@ -10,14 +10,15 @@
   ],
   "host_permissions": [
     "*://outlook.office.com/*",
-    "*://outlook.live.com/*"
+    "*://outlook.live.com/*",
+    "*://outlook.cloud.microsoft/*"
   ],
   "background": {
 	"service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["*://outlook.live.com/*", "*://outlook.office.com/*"],
+      "matches": ["*://outlook.live.com/*", "*://outlook.office.com/*", "*://outlook.cloud.microsoft/*"],
       "js": ["content.js"],
 	  "run_at": "document_idle"
     }
